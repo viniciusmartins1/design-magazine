@@ -218,6 +218,8 @@ body {
   bottom: 0;
 }
 
+/* sectionn good boys */
+
 .section-good-boy {
   background-color: black;
   background-image: linear-gradient(
@@ -229,9 +231,10 @@ body {
   );
   background-position: right bottom, left bottom;
   padding-top: 5%;
-  padding-bottom: 25%;
+  padding-bottom: 1%;
   overflow: hidden;
   position: relative;
+  border-bottom: 1px solid transparent;
 }
 
 .good-boy-img {
@@ -240,7 +243,6 @@ body {
   left: 23%;
   top: 12%;
   z-index: 2;
-  /* transform: translate(78%, -70%); */
 }
 
 .section-good-boy-text p {
@@ -272,7 +274,7 @@ body {
   width: 90%;
   position: absolute;
   left: 25%;
-  top: 69%;
+  top: 60%;
 }
 
 .section-good-boy-blocks li {
@@ -301,4 +303,54 @@ body {
 
 .section-good-boy-blocks li:nth-child(5) {
   background-color: #a38979;
+}
+
+/* section park*/
+
+.section-parking {
+  background-color: black;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8) 29.9%,
+    rgb(111, 9, 9),
+    rgb(111, 9, 9)
+  );
+  background-position: right bottom, left bottom;
+  padding-bottom: 5%;
+  overflow: hidden;
+  position: relative;
+}
+
+.parking-img-cicle {
+  width: 60%;
+  border-radius: 50%;
+  transform: translateX(-33%);
+  display: inline-block;
+}
+
+.parking-line-cicle {
+  width: 49em;
+  height: 52em;
+  border: 3.5px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1%;
+  left: -15%;
+}
+
+.parking-img {
+  width: 45%;
+  position: absolute;
+  top: 8%;
+  right: 0;
+}
+
+.parking-line-square {
+  width: 30em;
+  height: 36em;
+  border: 3px solid white;
+  position: absolute;
+  top: 15%;
+  right: -8%;
 }
